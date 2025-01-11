@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #070101;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    background-color: #660211;
+    padding: 5px;
+    color: green;
+    font: 1em cursive;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #660211;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    /* max-width: 800px; */
+    margin: 50px auto;
+    padding: 20px;
+    background: #070101;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.todo-list {
+    list-style: none;
+    padding: 0;
+    border: #37de55;
+    border-style: dotted;
+    align-items: left;
+}
+
+.todo-list-table {
+    margin-top: 20px;
+    border: 1px dashed red;
+    border-style: dotted;
+    align-items: left;
+}
+
+th {
+    color: white;
+    background-color: darkblue;
+    text-decoration: underline;
+    font-size: 15px;
+    font-family: cursive;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+td {
+    color: #09f20d;
+    font-family: cursive;
+}
+
+.todo-item:last-child {
+    border-bottom: none;
+}
+
+.todo-item.completed {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.todo-item-delete-button {
+    background: #0a0000;
+    border: none;
+    color: rgb(7, 0, 0);
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.todo-item button:hover {
+    background: #ff4c4c;
+}
+
+.add-todo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.add-todo input {
+    padding: 5px;
+    background-color: #070101;
+    color: #37de55;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.add-todo label {
+    background-color: #070101;
+    color: red;
+    font-size: 20px;
+    font-family: cursive;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.add-todo select {
+    background: black;
+    text-decoration: solid;
+    font-size: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.add-todo button {
+    background: black;
+    text-decoration: solid;
+    font-size: 20px;
+    border: none;
+    color: green;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.add-todo button:hover {
+    background: #45a049;
+}
+
+.logged-in-user {
+    display: inline;
+    font-size: 10px;
+    color: green;
+    font-style: italic bold;
+    justify-items: flex-end;
+}
