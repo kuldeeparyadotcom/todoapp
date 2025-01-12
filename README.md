@@ -1,4 +1,8 @@
 # TODO App
+### Demo
+[YouTube](https://youtu.be/xjWrvF9q6C8?si=iKiaDva7yLdIV7QH)
+</br>
+[LinkedIn](https://www.linkedin.com/posts/activity-7280837358894071808-x-Pf)
 
 ### Set up
 1. Run redis in docker container. Redis is used to store session.
